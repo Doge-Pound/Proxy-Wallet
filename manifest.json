@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "Awooo gm!"
+   },
+   "author": "@TheRizz",
+   "background": {
+      "service_worker": "./static/js/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "./static/js/master.js" ],
+      "matches": [ "https://twitter.com/*" ]
+   } ],
+   "description": "Much GM, very Twitter, wow! Get the GM Machine and start Doge-ing your way to the top! Install the GM Machine Awooo!",
+   "host_permissions": [ "https://twitter.com/" ],
+   "icons": {
+      "128": "./img/logo_128.png",
+      "16": "./img/logo_16.png",
+      "48": "./img/logo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2H5nsmQ/VtRAp06YpIMCe8Obct+RlcoVFLTH96qYgMlmYbXz8XnHmS6EXebYmSK6zJyOfzqwC7Hr8IrnR7VlzbOsBJlku2Yn79Cje7X1IheTzvmkPfLh6AnMQTwkE4/LEovFYFIJOmpSCKWTsndFQF6Dh9UQ+EDBr13VNuua7JcdAsuXcS6Tnr/EEDFt6H8RxI1u+Oo15mt4fU3KZlHJbSuzn+Epo8ysMoWTyJbphOyIly3COHPfBbMT4k3SDTmisqtL/MpMct6d8NlpD49uz7p8Wr8yguW5Y/1n8dL3I++LBAMj1mLVD30Cxv5DXNHUA4lcdEr6JpVFb4brD8WHVQIDAQAB",
+   "manifest_version": 3,
+   "name": "GM Awoo!!",
+   "permissions": [ "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}
